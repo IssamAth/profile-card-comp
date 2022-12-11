@@ -7,7 +7,7 @@ const App = () => {
     <div className='container flex mx-auto h-screen items-center justify-center bg-transparent'>
 
        {/* Flex Container */}
-       <div className='flex flex-col w-80 h-85 bg-white rounded-xl items-center '>
+       <div className='flex flex-col w-80 h-85 bg-white rounded-xl items-center shadow-2xl drop-shadow-2xl'>
 
         {/* cover */}
           <div className='rounded-t-xl'>
