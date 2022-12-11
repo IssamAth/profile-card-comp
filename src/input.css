@@ -9,8 +9,32 @@ body {
     background-image: url(./assets/bg-pattern-top.svg), url(./assets/bg-pattern-bottom.svg);
     /* background-image: url(./assets/bg-pattern-bottom.svg); */
     background-repeat: no-repeat no-repeat;
-    background-position: -15% 1000%, 120% -1200%;
+    background-position: -30% 1000%, 120% -1000%;
     /* background-position-x:-15rem;
     background-position-y: -28rem; */
     font-family: 'Kumbh Sans';
+}
+
+
+@media(max-width: 1350px){
+    body {
+        background-position: -100% 1200%, 210% -1000%;
+    }
+}
+@media(max-width: 1170px){
+    body {
+        background-position: -200% 1400%, 320% -1200%;
+    }
+}
+@media(max-width: 1040px){
+    body {
+        background-position: -800% 1400%, 990% -1200%;
+        background-attachment: fixed;
+    }
+}
+@media(max-width: 980px){
+    body {
+        background-position: -25000% 1400%, 26000% -1200%;
+        background-attachment: fixed;
+    }
 }
